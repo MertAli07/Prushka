@@ -1,6 +1,7 @@
 # 🤖 Prushka: Multi-agent Personal Chatbot - Powered by LLMs
 
 ## Release Notes:
+### V.0.1.0:
 
 
 ## Architecture in mind for V.1.0.0
