@@ -1,3 +1,6 @@
 langchain-ollama
 ollama
 streamlit
+SpeechRecognition
+pyttsx3
+PyAudio
