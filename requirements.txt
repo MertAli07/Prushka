@@ -1,6 +1,9 @@
 langchain-ollama
+langchain-community
 ollama
 streamlit
 SpeechRecognition
 pyttsx3
 PyAudio
+sqlalchemy
+langgraph

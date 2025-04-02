@@ -20,7 +20,7 @@ prompt = ChatPromptTemplate.from_messages(
 output_parser = StrOutputParser()
 
 # Streamlit UI
-st.set_page_config(page_title="LLM Chatbot", layout="wide")
+st.set_page_config(page_title="Prushka", layout="wide")
 
 with st.sidebar:
     st.sidebar.title("Settings")
@@ -46,8 +46,8 @@ if user_input:
     with st.spinner("Generating response..."):
         chain = prompt | llm | output_parser
         result = chain.invoke({"input": user_input})
-        st.subheader("Response:")
-        st.write(result)
+        with st.chat_message("assistant"):
+            st.write(result)
         if respond_with_voice:
             speak_text(result)
 else:
