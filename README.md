@@ -2,6 +2,10 @@
 
 ## Release Notes:
 ### V.0.1.0:
+- Streamlit UI added.
+- Two "chat_mode" options added: text, voice.
+- "response with voice" option added.
+- the most basic version of the LLM model architecture created.
 
 
 ## Architecture in mind for V.1.0.0
