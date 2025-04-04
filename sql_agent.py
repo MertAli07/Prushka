@@ -6,7 +6,7 @@ from langchain import hub
 from langgraph.prebuilt import create_react_agent
 from langchain_core.messages import HumanMessage
 from langchain.agents import AgentExecutor
-
+ 
 llm = ChatOllama(
     model="llama3.2",
     function_call="auto"

@@ -2,3 +2,4 @@ myenv
 __pycache__/speech_to_text.cpython-310.pyc
 __pycache__/text_to_speech.cpython-310.pyc
 __pycache__/sqlite_db.cpython-310.pyc
+.env

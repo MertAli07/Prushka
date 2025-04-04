@@ -1,5 +1,6 @@
 langchain-ollama
 langchain-community
+langchain-groq
 ollama
 streamlit
 SpeechRecognition
@@ -7,3 +8,5 @@ pyttsx3
 PyAudio
 sqlalchemy
 langgraph
+atlassian-python-api
+python-dotenv
