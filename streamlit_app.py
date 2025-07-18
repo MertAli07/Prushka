@@ -4,9 +4,10 @@ from langchain_ollama import ChatOllama
 from langchain_core.output_parsers import StrOutputParser
 from speech_to_text import recognize_speech
 from text_to_speech import speak_text
+from general_utils import choose_llm
 
 # Initialize the LLM
-llm = ChatOllama(model="gemma3:1b")
+llm = choose_llm("ollama", "gemma3_1b")
 
 # Define the prompt
 prompt = ChatPromptTemplate.from_messages(

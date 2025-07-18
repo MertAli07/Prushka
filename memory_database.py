@@ -69,7 +69,7 @@ llm = ChatOllama(
 
 # Instantiate the vector store
 vector_store = MongoDBAtlasVectorSearch.from_connection_string(
-  connection_string = "mongodb+srv://mertaliyalcin:mert1246@cluster0.4uz2siz.mongodb.net/", # Atlas cluster or local deployment URI
+  connection_string = os.getenv("MONGODB_ATLAS_URI"), # Atlas cluster or local deployment URI
   namespace = "sample_mflix.embedded_movies",  # Database and collection name
   embedding = OpenAIEmbeddings(model="text-embedding-ada-002"), # Embedding model to use
   index_name = "vector_index",                      # Name of the vector search index
