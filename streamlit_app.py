@@ -6,7 +6,7 @@ from speech_to_text import recognize_speech
 from text_to_speech import speak_text
 
 # Initialize the LLM
-llm = ChatOllama(model="llama3.2")
+llm = ChatOllama(model="gemma3:1b")
 
 # Define the prompt
 prompt = ChatPromptTemplate.from_messages(

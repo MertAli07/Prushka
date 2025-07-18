@@ -7,7 +7,6 @@ from langchain_community.utilities.jira import JiraAPIWrapper
 from langchain_ollama import ChatOllama
 from langchain_groq import ChatGroq
 
-
 load_dotenv()
 
 # llm = ChatOllama(
